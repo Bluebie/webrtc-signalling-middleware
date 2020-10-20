@@ -1,0 +1,19 @@
+{
+  "name": "webrtc-signalling-middleware",
+  "version": "0.9.0",
+  "description": "Simple express webrtc signalling middleware for small p2p webrtc experiments using event-stream, works well in combination with webrtc-signal-client. Works well on Glitch or other simple single process node/express application servers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webrtc",
+    "simple-peer"
+  ],
+  "author": "Bluebie",
+  "license": "Unlicense",
+  "dependencies": {
+    "connect-sse": "^1.2.0",
+    "express": "^4.17.1"
+  }
+}
